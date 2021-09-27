@@ -1,0 +1,77 @@
+{
+  "format": 1,
+  "restore": {
+    "F:\\Auger\\Extra\\Test_Eden_Index\\AddFileIndex\\AddFileIndex\\AddFileIndex.vbproj": {}
+  },
+  "projects": {
+    "F:\\Auger\\Extra\\Test_Eden_Index\\AddFileIndex\\AddFileIndex\\AddFileIndex.vbproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "F:\\Auger\\Extra\\Test_Eden_Index\\AddFileIndex\\AddFileIndex\\AddFileIndex.vbproj",
+        "projectName": "AddFileIndex",
+        "projectPath": "F:\\Auger\\Extra\\Test_Eden_Index\\AddFileIndex\\AddFileIndex\\AddFileIndex.vbproj",
+        "packagesPath": "C:\\Users\\NS-42\\.nuget\\packages\\",
+        "outputPath": "F:\\Auger\\Extra\\Test_Eden_Index\\AddFileIndex\\AddFileIndex\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\NS-42\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net5.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {},
+          "https://pkgs.dev.azure.com/AugerDevOps/_packaging/AugerPackages/nuget/v3/index.json": {}
+        },
+        "frameworks": {
+          "net5.0": {
+            "targetAlias": "net5.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net5.0": {
+          "targetAlias": "net5.0",
+          "dependencies": {
+            "Auger.Objects.Core": {
+              "target": "Package",
+              "version": "[5.0.1.5, )"
+            },
+            "Microsoft.AspNetCore.Http.Features": {
+              "target": "Package",
+              "version": "[6.0.0-preview.4.21253.5, )"
+            },
+            "Newtonsoft.Json": {
+              "target": "Package",
+              "version": "[13.0.1, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.400\\RuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}
